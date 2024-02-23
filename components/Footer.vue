@@ -10,7 +10,7 @@
         <br />
         Generator
       </p> -->
-      <p class="font-extrabold text-xl mt-2 leading-tight">EnBizCard</p>
+      <p class="font-extrabold text-xl mt-2 leading-tight">EVCard</p>
     </div>
     
     
