@@ -73,7 +73,7 @@
         <div
           class="logo w-24"
           v-html="require(`~/assets/icons/logo.svg?include`)"
-          title="EnBizCard - An Open-Source Digital Business Card Generator"
+          title="EVCard- E-Business Card"
         ></div>
         <a
           class="
@@ -91,7 +91,7 @@
             transition-colors
             duration-200
           "
-          href="https://www.vishnuraghav.com/donate"
+          href="https://www.kraftloop.in"
           target="_blank"
           rel="noreferrer"
           >Donate</a
@@ -109,13 +109,12 @@
         Why Pay When Your Website Can Host Your Digital Business Cards for Free!
       </h1>
       <p class="mt-8 text-lg md:text-xl w-full md:w-3/4 text-gray-200">
-        EnBizCard helps you create beautiful, responsive HTML&#8209;based
-        digital business cards that can be hosted on your website.
+        EVCard helps you create beautiful, responsive HTML&#8209;based
+        Digital Business Cards.
       </p>
       <ul class="mt-4 text-gray-400">
         <li>-&ensp;No sign-up required</li>
         <li>-&ensp;100% free and open-source</li>
-        <li>-&ensp;No user tracking and data collection</li>
         <li>-&ensp;Works offline</li>
       </ul>
       <div class="mt-4 flex flex-wrap items-center">
@@ -165,23 +164,7 @@
           >View demo</a
         >
       </div>
-      <p class="mt-6">
-        Read the
-        <NuxtLink
-          to="/hosting-guide"
-          class="
-            cursor-pointer
-            underline
-            font-extrabold
-            text-emerald-600
-            hover:text-emerald-500
-            focus:text-emerald-500
-            transition-colors
-            duration-200
-          "
-          >Hosting Guide</NuxtLink
-        >
-      </p>
+     
     </div>
     <div class="md:grid md:grid-cols-2">
       <div class="px-4 mt-32">
@@ -748,10 +731,7 @@
               </div>
               <p>{{ footerCredit ? 'Enabled' : 'Disabled' }}</p>
             </div>
-            <p class="mt-6 border p-4 rounded border-gray-700 text-gray-400">
-              By enabling the footer credit, you can help this project reach
-              more people.
-            </p>
+            
           </div>
         </div>
         <div id="step-7" class="mt-16">
