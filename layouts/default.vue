@@ -11,8 +11,8 @@ export default {
 
 <style lang="scss">
 @font-face {
-  font-family: 'Nunito';
-  src: url('~static/nunito.woff2') format('woff2');
+  font-family: 'CreatoDisplay-Regular';
+  src: url('~static/CreatoDisplayRegular.woff2') format('woff2'); 
   font-display: swap;
   font-weight: 400;
 }
